@@ -4,7 +4,7 @@ sudo su
 cd /root
 apt update -y
 
-wget -O proxysocks https://github.com
+wget -O proxysocks https://github.com/decarteao/proxysocks/raw/refs/heads/main/bin/proxysocks_ubuntu
 chmod +x proxysocks
 
 cat > /etc/systemd/system/proxysocks.service <<-END
